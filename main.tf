@@ -1,9 +1,9 @@
 provider "azurerm" {
-  version = "~> 0.3"
+  version = ">= 0.3"
 }
 
 provider "random" {
-  version = "~> 1.0"
+  version = ">= 1.0"
 }
 
 module "os" {
